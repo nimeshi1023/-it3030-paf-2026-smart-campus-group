@@ -24,13 +24,13 @@ Backend: Spring Boot REST API (layered architecture)
 Database: MongoDB / MySQL (based on implementation)
 Authentication: OAuth 2.0 (Google Sign-In)
 
-## 🚀 Core Modules
+# 🚀 Core Modules
 ###🏢 Module A – Facilities & Assets Catalogue
 Manage resources (rooms, labs, equipment)
 Resource metadata: type, capacity, location, availability, status
 Search and filter functionality
 
-### 📅 Module B – Booking Management
+## 📅 Module B – Booking Management
 Request resource bookings
 Booking workflow:
 PENDING → APPROVED / REJECTED → CANCELLED
@@ -38,7 +38,7 @@ Conflict detection for overlapping bookings
 Admin approval/rejection with reason
 User-specific and admin-wide booking views
 
-### 🛠️ Module C – Maintenance & Incident Ticketing
+## 🛠️ Module C – Maintenance & Incident Ticketing
 Create incident tickets with priority and category
 Upload image attachments (max 3)
 Ticket lifecycle:
@@ -46,12 +46,12 @@ OPEN → IN_PROGRESS → RESOLVED → CLOSED / REJECTED
 Technician assignment and resolution updates
 Comment system with ownership control
 
-### 🔔 Module D – Notifications
+## 🔔 Module D – Notifications
 Booking status updates
 Ticket updates and comments
 Accessible notification panel in UI
 
-### 🔐 Module E – Authentication & Authorization
+## 🔐 Module E – Authentication & Authorization
 OAuth 2.0 (Google login)
 Role-based access control (RBAC):
 USER
