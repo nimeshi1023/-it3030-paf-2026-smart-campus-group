@@ -25,7 +25,7 @@ Database: MongoDB / MySQL (based on implementation)
 Authentication: OAuth 2.0 (Google Sign-In)
 
 # 🚀 Core Modules
-###🏢 Module A – Facilities & Assets Catalogue
+## 🏢 Module A – Facilities & Assets Catalogue
 Manage resources (rooms, labs, equipment)
 Resource metadata: type, capacity, location, availability, status
 Search and filter functionality
